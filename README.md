@@ -1,10 +1,12 @@
-# bdd-showdown
+# BDD Showdown
 
-This repository compares different BDD frameworks for .NET. BDD provides a behaviour focussed approach to testing, often producing extremely readable output that can be presented to stakeholders to verify a system. 
+This repository compares different BDD frameworks for .NET. 
 
-BDD adds additional context when writing tests, something that is often lost when writing tests with _unit_ testing frameworks. 
+[BDD](https://docs.cucumber.io/bdd/overview/) promotes a behaviour focussed approach to testing, often providing extremely readable output that can often be presented and understood by project stakeholders.
 
-Finding a good balance between a test framework that offers the expressiveness of BDD without bloating tests or requiring a lot of ceremony, especially in .NET since most frameworks are really being driven by the underlying test runners (XUnit/NUnit) which do not really have a sense of heirarchy.
+BDD adds additional context when writing tests, something that is often lost when writing tests with traditional _unit_ testing frameworks. 
+
+Finding a good balance between a test framework that offers the expressiveness of BDD without bloating tests or requiring a lot of ceremony is a challenge, especially in .NET since most frameworks are really being driven by the underlying test runners (XUnit/NUnit).
 
 ## System under test
 
