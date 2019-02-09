@@ -19,6 +19,20 @@
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
+            "name": "NSpec debug",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/test/BddShowdown.Tests.NSpec/bin/Debug/netcoreapp2.0/BddShowdown.Tests.NSpec.dll",
+            "args": ["--tags", "debug"],
+            "cwd": "${workspaceFolder}/test/BddShowdown.Tests.NSpec",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach",
