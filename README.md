@@ -21,6 +21,21 @@ The system being tested is a simplified component taken from a payment gateway. 
 
 Browse to the NSpec tests directory and run `dotnet run`
 
+#### Basic debugging
+
+- For VSCode tag the test you want to debug with "debug"
+- Start a debugging session using the "NSpec debug" launch profile
+
+#### Generate code coverage report
+
+- Run the [gen-coverage](./gen-coverage.sh) script
+
+This outputs the test report and code coverage report to the console. Beside that is generates the raw code coverage report under the ./coverage directory.
+
+Using this generated report a tool like [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) to highlight the
+code coverage for each file.
+
+
 ### XBehave
 
 Browse to the XBehave directory and run `dotnet test`. This uses the XUnit test runner. 
