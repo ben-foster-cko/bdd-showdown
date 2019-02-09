@@ -32,8 +32,7 @@ Browse to the NSpec tests directory and run `dotnet run`
 
 This outputs the test report and code coverage report to the console. Beside that is generates the raw code coverage report under the ./coverage directory.
 
-Using this generated report a tool like [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) to highlight the
-code coverage for each file.
+Using this generated report a tool like [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) can be used to highlight code coverage for each file.
 
 
 ### XBehave
