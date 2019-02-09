@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddShowdown.Tests.NSpec", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddShowdown.Tests.XBehave", "test\BddShowdown.Tests.XBehave\BddShowdown.Tests.XBehave.csproj", "{828A5083-7E53-4E53-AB46-81956A733E5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddShowdown.Tests.xUnit", "test\BddShowdown.Tests.XUnit\BddShowdown.Tests.XUnit.csproj", "{2AE1D181-F004-44D0-8AF0-C8A7D2C81B5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddShowdown.Tests.XUnit", "test\BddShowdown.Tests.XUnit\BddShowdown.Tests.XUnit.csproj", "{2AE1D181-F004-44D0-8AF0-C8A7D2C81B5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
