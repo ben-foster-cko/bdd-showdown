@@ -28,6 +28,10 @@ Browse to the NSpec tests directory and run `dotnet run`
 
 #### Generate code coverage report
 
+- Install coverlet with dotnet tools 
+```bash
+dotnet tool install --global coverlet.console
+```
 - Run the [gen-coverage](./gen-coverage.sh) script
 
 This outputs the test report and code coverage report to the console. Beside that is generates the raw code coverage report under the ./coverage directory.
