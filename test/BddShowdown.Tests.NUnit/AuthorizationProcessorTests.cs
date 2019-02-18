@@ -85,7 +85,7 @@ namespace BddShowdown.Tests.NUnit
         }
 
         [Test]
-        public void First_Acquirer_Declines_The_Payment_With_Cascade_Next_Acquirer_Must_Be_Attempted()
+        public void Next_Acquirer_Is_Attempted_After_First_Acquirer_Declines()
         {
             _acquirers.Add(AcquirerResponses.DNH);
             _acquirers.Add(AcquirerResponses.Approved);
