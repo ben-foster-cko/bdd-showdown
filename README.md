@@ -16,6 +16,8 @@ The system being tested is a simplified component taken from a payment gateway. 
 
 - [NSpec](http://nspec.org/)
 - [XBehave](http://xbehave.github.io/)
+- [NUnit](https://nunit.org/)
+- [XUnit](https://xunit.github.io/)
 
 ### NSpec
 
@@ -24,8 +26,15 @@ Browse to the NSpec tests directory and run `dotnet run`
 ### XBehave
 
 Browse to the XBehave directory and run `dotnet test`. This uses the XUnit test runner. 
-
 To see more details output run `dotnet test --verbosity normal`
+
+### NUnit
+
+Browse to the NUnit directory and run `dotnet test`. This uses the NUnit test runner. 
+
+### XUnit
+
+Browse to the XUnit directory and run `dotnet test`. This uses the XUnit test runner. 
 
 ## Other BDD Frameworks
 
